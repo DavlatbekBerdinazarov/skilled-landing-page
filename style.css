@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root{
+    --neutral-grey:#666ca3;
+    --neutral-dark:#13183f;
+    --gray-color:#83869a;
+    --dark-pink:#f74780;
+    --light-pink:#ffa7c3;
+    --white:#fff;
+    --sunset-gradient:linear-gradient( #ff6f48,#f02aa6);
+    --night-gradient:linear-gradient(#4851ff, #f02aa6);
+}
+
+.container{
+    max-width: 1110px;
+    margin: 20px auto;
+    height: 2000px;
+}
+
+.logo{
+    color: var(--neutral-dark);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    padding:13px 26px 18px;
+    border: none;
+    background-color: var(--neutral-dark);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.btn-sunset {
+    padding:13px 26px 18px;
+    border: none;
+    background: var(--sunset-gradient);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 174px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+    max-width: 545px;
+}
+
+.main-text h1{
+    font-size: 56px;
+}
+
+.main-text p{
+    color: var(--gray-color);
+}
+
+.gradient-1{
+    position: relative;
+    left: 200px;
+    top: -100px;
+}
+
+.grandient-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    top: -600px;
+    left: 200px;
+    width: 300px;
+    height: 500px;
+    background: var(--sunset-gradient);
+    border-radius: 180px;
+}
+
+.grandient-2 img{
+    position: relative;
+    top: 25px;
+    width: 90%;
+}
