@@ -21,7 +21,7 @@
 .container{
     max-width: 1110px;
     margin: 20px auto;
-    height: 2000px;
+    height: 100%;
 }
 
 .logo{
@@ -75,6 +75,7 @@ header {
 .c-hours{
     position: relative;
     max-width: 150px;
+    max-height: 100px;
     top: -800px;
     right: -100px;
     background-color: #fff;
@@ -84,6 +85,7 @@ header {
 }
 
 .members{
+    max-height: 100px;
     position: relative;
     max-width: 150px;
     top: -1100px;
@@ -113,6 +115,10 @@ main {
 
 .main-text p{
     color: var(--gray-color);
+}
+
+.img-content div{
+    height: 500px;
 }
 
 .gradient-1{
